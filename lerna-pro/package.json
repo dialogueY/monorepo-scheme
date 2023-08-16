@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "scripts": {
+    "package1-dev":"lerna exec --scope package1 -- npm run serve"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^7.1.5"
+  },
+  "private":true
+}
