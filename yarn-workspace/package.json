@@ -1,0 +1,11 @@
+{
+  "name": "yarn-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "p1-dev":"yarn workspace package1 serve"
+  },
+  "workspaces": ["packages/*"]
+}
